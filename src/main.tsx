@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/pizzak/:id' element={<PizzaPage />}/>
-        <Route path='*' elent={<h1>404, az oldal nem található</h1>}/>
+        <Route path='*' element={<h1>404, az oldal nem található</h1>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
