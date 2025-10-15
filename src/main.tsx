@@ -11,6 +11,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/pizzak/:id' element={<PizzaPage />}/>
+        <Route path='/404' element={<404 />}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
